@@ -1,0 +1,20 @@
+.home{
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+background: linear-gradient(
+    to left,
+    rgb(241, 8, 8) 0%,
+    rgb(231, 255, 15) 100%
+);
+text-align: center;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
